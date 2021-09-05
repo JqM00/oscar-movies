@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    marker: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;;
+}
+
+a:hover {
+    color: #696969;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+}
+
+.navbar {
+    background-color: #C79F27;
+    
+}
+
+.nav-link {
+    margin: 20px;
+}
+
+.logo-oscar {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.what-movie {
+    color: #696969; 
+    display: flex;
+    justify-content: center;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
