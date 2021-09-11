@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Montserrat&family=Roboto&family=Roboto+Condensed&family=Urbanist&display=swap"
         rel="stylesheet">
+    <script type="text/javascript" src="function.js"></script>
     <title>Oscar</title>
 </head>
 
@@ -34,17 +35,18 @@
         </div>
         <div class="random">
             <div class="random-year">
-                <input type="text" id="random-year" class="movie-year" placeholder="ano da obra" />
+                <input type="text" id="random-year" class="movie-year" placeholder="ano da obra"
+                    style="text-align:center" />
                 <button class="btn-random" onclick="discover()">sortear</button>
             </div>
             <div class="random-category">
-                <input type="text" class="category" placeholder="categoria" />
+                <input type="text" id="random-category" class="category" placeholder="categoria" style="text-align:center" />
                 <button class="btn-random">sortear</button>
             </div>
             <!-- <input type="text" class="chosen-movie" placeholder="filme sorteado"/> -->
         </div>
     </main>
-    <script type="text/javascript" src="function.js"></script>
+
 </body>
 
 </html>
